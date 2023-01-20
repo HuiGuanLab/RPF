@@ -1,4 +1,4 @@
-# From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval(RPF)
+# From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval
 
 ![network structure](imgs/myframework.jpg)
 
@@ -11,7 +11,6 @@
 * [Configuration](#configuration)
 * [Training](#training)
 * [Evaluation](#evaluation)
-* [Acknowledgement](#acknowledgement)
 
 ## Environments
 - **Ubuntu** 20.04
@@ -76,7 +75,3 @@ Run the following script to test on the trained models:
 ```python
 python main.py --cfg config/<Dataset>/<Dataset>.yaml config/<Dataset>/s2.yaml --resume runs/<Dataset>_s2/model_best.pth.tar --test TEST
 ```
-
-## Acknowledgement
-
-Many thanks to [ASEN++](https://github.com/maryeon/asenpp) for the PyTorch reimplementation of [Fine-Grained Fashion Similarity Prediction by Attribute-Specific Embedding Learning](https://arxiv.org/abs/2104.02429)
