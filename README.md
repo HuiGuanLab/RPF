@@ -1,5 +1,5 @@
 # From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval
-
+This is a repository contains the implementation of our SIGIR'23 full paper From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval.
 ![network structure](imgs/myframework.jpg)
 
 ## Table of Contents
