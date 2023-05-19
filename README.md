@@ -1,5 +1,5 @@
 # From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval
-This is a repository contains the implementation of our SIGIR'23 full paper From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval.
+This is a repository contains the implementation of our SIGIR'23 full paper[From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval](https://doi.org/10.48550/arXiv.2305.10260).
 ![network structure](imgs/myframework.jpg)
 
 ## Table of Contents
@@ -111,3 +111,14 @@ Expected MAP on DeepFashion Dataset
 |             |texture |fabric |shape |part| style |overall|
 | :---------: | :--: | :--: | :--: | :---: | :---: | :---: |
 |RPF| 15.62| 8.30 |15.02| 7.38| 4.77|10.22|
+## Citation
+If you find this repository useful, please consider citing our paper:
+```
+@inproceedings{RPF2023,
+  title={From Region to Patch: Attribute-Aware Foreground-Background Contrastive Learning for Fine-Grained Fashion Retrieval},
+  author={Jianfeng Dong and Xiaoman Peng and Zhe Ma and Daizong Liu and Xiaoye Qu and Xun Yang and Jixiang Zhu and Baolong Liu},
+  booktitle={Proceedings of the 46rd International ACM SIGIR Conference on Research and Development in Information Retrieval},
+  year={2023}
+}
+
+```
