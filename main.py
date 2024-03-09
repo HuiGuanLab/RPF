@@ -62,7 +62,8 @@ def main(cfg):
     if cfg.MODEL.TRANSFORMER.ENABLE:
         lt = LocalTransform(cfg)
         print("vit")
-        model.load_from(np.load("Your Downloaded Vit Pretrained Model"))
+        if args.test is None:
+            model.load_from(np.load("Your Downloaded Vit Pretrained Model"))
 
 
     if args.test is not None:
